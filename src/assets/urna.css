@@ -1,0 +1,76 @@
+.urna {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 60vw;
+  height: 60vh;
+  background-color: #8d9da3;
+  border-radius: 5px;
+}
+
+.tela {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 80%;
+  background-color: white;
+  border-radius: 2px;
+  color: black;
+}
+
+.politicoInfo {
+  display: flex;
+  align-items: center;
+}
+
+.numbersSelected {
+  align-self: center;
+  font-size: 30px;
+}
+
+.teclado {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40%;
+  height: 80%;
+  background-color: #13161a;
+  border-radius: 2px;
+}
+
+.numeros {
+  display: flex;
+  align-self: center;
+  height: 70%;
+  width: 80%;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.confirm {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.btnUrna {
+  width: 70px;
+  height: 35px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+
+.btnUrnaResolve {
+  width: 90px;
+  height: 40px;
+  background-color: aliceblue;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
